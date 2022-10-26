@@ -4,11 +4,11 @@ const messages = {
     _zodiac: ['Your sign is a capricorn', 'Your sign is a leo', 'Your sign is a virgo', 'Your sign is a scorpio', 'Your sign is a taurus']
 }
 
-// const randomMess = () => {
-//     for (const key of Object.keys(messages)) {
-//         let randomIndex = Math.floor(Math.random() * messages[key].length);
-//         console.log(`${messages[key][randomIndex]}`);
-//     }
-// }
+const randomMess = () => {
+    for (const key of Object.keys(messages)) {
+        let randomIndex = Math.floor(Math.random() * messages[key].length);
+        console.log(`${messages[key][randomIndex]}`);
+    }
+}
  
-// randomMess();
+randomMess();
